@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+/*for smartphone*/
+[class*="col-"] {width: 100;}
+
+@media only screen and (min-width: 600px){
+    /*for tablets*/
+    .col-s1 {width: 8.33%;}
+    .col-s2 {width: 16.66%;}
+    .col-s3 {width: 25%;}
+    .col-s4 {width: 33.33%;}
+    .col-s5 {width: 41.66%;}
+    .col-s6 {width: 50%;}
+    .col-s7 {width: 58.33%;}
+    .col-s8 {width: 66.66%;}
+    .col-s9 {width: 75%;}
+    .col-s10 {width: 83.33%;}
+    .col-s11 {width: 91.66%;}
+    .col-s12 {width: 100%;}
+}
+@media only screen and (min-width: 768px){
+    /*for dekstop*/
+    .col-s1 {width: 8.33%;}
+    .col-s2 {width: 16.66%;}
+    .col-s3 {width: 25%;}
+    .col-s4 {width: 33.33%;}
+    .col-s5 {width: 41.66%;}
+    .col-s6 {width: 50%;}
+    .col-s7 {width: 58.33%;}
+    .col-s8 {width: 66.66%;}
+    .col-s9 {width: 75%;}
+    .col-s10 {width: 83.33%;}
+    .col-s11 {width: 91.66%;}
+    .col-s12 {width: 100%;}
+}
+
+.bg-green{ background: #00510c; colorL:white;}
+.bg-blue{ background: #012051; color:white;}
+.bg-red{ background: #50011a; color:white;}
