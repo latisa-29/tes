@@ -1,0 +1,233 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        .bg-header-home {
+            background-image: url(hero.jpeg);
+            background-size: cover;
+        }
+        .bg-shadow {
+            background-color: rgba(0, 0, 0, 0.6);
+        }
+
+        @font-face {
+            font-family: 'playball';
+            src: url('font/Playyball-Regular.ttf')
+        }
+
+        .playball {
+            font-family: Playball;
+        }
+        .bg-header-follow{
+            background-image: url(follow-us.jpeg);
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <!--section header-->
+    <div class="w-full h-dvh bg-header-home">
+        <div class="bg-shadow w-full h-full ">
+            <!--navbar section-->
+            <div class="w-full flex items-center gap-20 p-10 justify-between">
+                <!--logo-->
+                <img src="logo.png" alt="logo" class="w-40 h-40 rounded-full">
+                <!--menu-->
+                <div class="text-white font-bold text-2xl flex flex-wrap gap-10 justify-center">
+                    <span>MENU</span>
+                    <span>CATERING MENU</span>
+                    <span>CONTACT</span>
+                    <span>HIRING</span>
+                </div>
+                <!--sosmed-->
+                <div class="flex gap-5 justify-center">
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" fill="white">
+                            <circle cx="16" cy="16" r="16" fill="#1877F3" />
+                            <path d="M22 16h-4v8h-4v-8h-2v-3h2v-2c0-2 1-3 3-3h3v3h-2c-.5 0-1 .5-1 1v1h3l-1 3z"
+                                fill="#fff" />
+                        </svg>
+                    </span>
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" fill="white">
+                            <circle cx="16" cy="16" r="16" fill="#E1306C" />
+                            <rect x="9" y="9" width="14" height="14" rx="4" fill="#fff" />
+                            <circle cx="16" cy="16" r="4" fill="#E1306C" />
+                            <circle cx="21" cy="11" r="1.2" fill="#E1306C" />
+                        </svg>
+                    </span>
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" fill="white">
+                            <circle cx="16" cy="16" r="16" fill="#000" />
+                            <path
+                                d="M21 11.5v7.2c0 2.2-1.8 4-4 4s-4-1.8-4-4 1.8-4 4-4c.2 0 .4 0 .6.1v2.1c-.2 0-.4-.1-.6-.1-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2v-9.2h2z"
+                                fill="#fff" />
+                        </svg>
+                    </span>
+                </div>
+            </div>
+            <!--end of navbar section-->
+            <!--start title section-->
+            <div class="w-full flex justify-center">
+                <div class="flex flex-col items-center">
+                    <div class="playball text-[120px] text-amber-100 font-bold">
+                        PIZZA
+                    </div>
+                    <div class="text-[70px] text-white font-bold">DONE RIGHT</div>
+                </div>
+            </div>
+            <!--end of title section-->
+        </div>
+    </div>
+    <!--end section of header-->
+
+    <!--section launch spesial-->
+    <div class="w-full bg-white p-20 flex flex-wrap justify-center">
+        <!--section text-->
+        <div class="w-full md:w-1/3 text-center p-5 flex flex-col gap-5">
+            <div class="text-red-600 text-6xl playball">
+                Launch Specials
+            </div>
+            <strong>
+                2 potong pizza toping keju mozzarela, sosis, dan jamur
+            </strong>
+            <span>
+                Dengan minum es teh manis
+            </span>
+        </div>
+        <!--end section of text-->
+
+        <!--section image-->
+        <div class="w-full md:w-1/3 p-5 flex justify-center">
+            <img src="special-lunch.jpeg" alt="Specials Launch" class="size-96 rounded-full">
+        </div>
+        <!--end section of image-->
+    </div>
+    <!--end of launch spesial-->
+    <!--about us-->
+    <style>
+        .bg-header-about{
+            background-image: url(about-us\ \(1\).jpeg);
+            background-size: cover;
+        }
+        .bg-shadow{
+            background-color: rgba(0, 0, 0, 0.6);
+        }
+    </style>
+    <div class="w-full h-dvh bg-header-about">
+        <div class="flex justify-center items-center flex-col bg-shadow w-full h-full">
+            <div class="playball text-[120px] text-amber-100 font-bold">
+                ABOUT US
+            </div>
+            <div class="text-white font-bold">
+                <strong>
+                    Pizza yang dibuat dengan cinta dan bahan-bahan yang berkualitas tinggi
+                </strong>
+            </div>
+        </div>
+    </div>
+    <!--end of about us-->
+
+    <!--hours section-->
+
+    <div class="flex justify-center items-center flex-col bg-white w-full ">
+            <div class="playball text-[100px] text-red-600 font-bold">
+                HOURS
+            </div> 
+           <div class="flex flex-wrap gap-20 py-20 justify-center text-black font-bold text-2xl">
+    <div class="flex flex-col items-center">
+        <span>MONDAY-THUSDAY</span>
+        <span class="text-base font-semibold">11AM - 9PM</span>
+    </div>
+    <div class="flex flex-col items-center">
+        <span>FRIDAY</span>
+        <span class="text-base font-semibold">11AM - 11PM</span>
+    </div>
+    <div class="flex flex-col items-center">
+        <span>SATURDAY</span>
+        <span class="text-base font-semibold">11AM - 10PM</span>
+    </div>
+    <div class="flex flex-col items-center">
+        <span>SUNDAY</span>
+        <span class="text-base font-semibold">CLOSED</span>
+    </div>
+</div>
+    <!--end hours section-->
+
+     <!--follow us section-->
+
+<div class="w-full bg-header-follow">
+    <div class="bg-shadow 2 w-full h-full flex flex-col items-center justify-center py-10">
+      <h2 class="text-6xl playball text-white font-bold mb-3">Follow Us</h2>
+      <p class="text-white text-lg mb-10">#500degreespizzeria</p>
+      
+      <!-- Sosial Media Icons -->
+      <div class="flex gap-10 mb-12">
+        <!-- Facebook -->
+        <span>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" fill="white">
+            <circle cx="16" cy="16" r="16" fill="#1877F3"/>
+            <path d="M22 16h-4v8h-4v-8h-2v-3h2v-2c0-2 1-3 3-3h3v3h-2c-.5 0-1 .5-1 1v1h3l-1 3z" fill="#fff"/>
+            </svg>
+        </span>
+        <!-- Instagram -->
+        <span>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+                <radialGradient id="insta-gradient" cx="0.5" cy="0.5" r="0.8">
+                    <stop offset="0%" stop-color="#fdf497"/>
+                    <stop offset="45%" stop-color="#fdf497"/>
+                    <stop offset="60%" stop-color="#fd5949"/>
+                    <stop offset="90%" stop-color="#d6249f"/>
+                    <stop offset="100%" stop-color="#285AEB"/>
+                </radialGradient>
+                <circle cx="16" cy="16" r="16" fill="url(#insta-gradient)"/>
+                <rect x="9" y="9" width="14" height="14" rx="4" fill="none" stroke="#fff" stroke-width="2"/>
+                <circle cx="16" cy="16" r="4" fill="none" stroke="#fff" stroke-width="2"/>
+                <circle cx="21" cy="11" r="1" fill="#fff"/>
+            </svg>
+        </span>
+        <!-- TikTok -->
+        <span>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+                <circle cx="16" cy="16" r="16" fill="#000" />
+                <path d="M22.5 13.5c-1.7 0-3.1-1.4-3.1-3.1V8.1h-2.2v11.2c0 1.1-.9 2-2 2s-2-.9-2-2 0-2 2-2c.2 0 .4 0 .6.1v-2.2c-.2 0-.4-.1-.6-.1-2.3 0-4.2 1.9-4.2 4.2s1.9 4.2 4.2 4.2 4.2-1.9 4.2-4.2v-4.7c.9.7 2 1.1 3.1 1.1h.2v-2.2h-.2z" fill="#fff"/>
+                <path d="M25 13.5v2.2c-1.1 0-2.2-.4-3.1-1.1v4.7c0 2.3-1.9 4.2-4.2 4.2s-4.2-1.9-4.2-4.2 1.9-4.2 4.2-4.2c.2 0 .4 0 .6.1v2.2c-.2-.1-.4-.1-.6-.1-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2V8.1h2.2v2.3c0 1.7 1.4 3.1 3.1 3.1h.2z" fill="#25F4EE"/>
+                <path d="M25 13.5v2.2c-1.1 0-2.2-.4-3.1-1.1v4.7c0 2.3-1.9 4.2-4.2 4.2v-2.2c1.1 0 2-.9 2-2v-4.7c.9.7 2 1.1 3.1 1.1h.2z" fill="#FE2C55"/>
+            </svg>
+        </span>
+      </div>
+    </div>
+  </div>
+    
+    <!--end follow us section-->
+
+    <!--footer section-->
+
+   <!-- Footer -->
+  <footer class="bg-red-700 text-white text-center py-10 w-full h-full">
+    <!-- Alamat -->
+    <div class="mb-5 font-semibold">
+      6037 SOUTH BLVD CHARLOTTE, NC &nbsp; • &nbsp; 704-554-6601 &nbsp; 704-554-6602
+    </div>
+
+     <!-- Menu Footer -->
+    <div class="flex justify-center gap-10 mb-5 font-bold uppercase">
+      <a href="#" class="hover:underline">Home</a>
+      <a href="#" class="hover:underline">Menu</a>
+      <a href="#" class="hover:underline">Catering Menu</a>
+      <a href="#" class="hover:underline">Hiring</a>
+    </div>
+
+      <!-- Copyright -->
+    <div class="text-sm mt-5">
+      © 500degreespizzeria 2016 &nbsp; • &nbsp; All rights reserved. &nbsp; 
+    </div>
+  </footer>
+<!--end footer section-->
+  </body>
+</html>
